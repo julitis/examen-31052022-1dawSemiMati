@@ -18,3 +18,5 @@
 ![uml](https://github.com/Cucala/examen-31052022-1dawSemiMati/blob/main/images/uml.png)
 7. Volver a la rama principal y escribir en el readmi vuestro nombre y que esperáis del proximo año.
 8. Realizar un commit final y su push.
+
+Julia González Hernández. 

@@ -64,6 +64,7 @@
             this.Comprador1TxtBox.Name = "Comprador1TxtBox";
             this.Comprador1TxtBox.Size = new System.Drawing.Size(151, 27);
             this.Comprador1TxtBox.TabIndex = 3;
+            this.Comprador1TxtBox.TextChanged += new System.EventHandler(this.Comprador1TxtBox_TextChanged);
             // 
             // pictureBox1
             // 

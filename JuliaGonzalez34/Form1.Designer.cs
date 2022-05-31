@@ -28,50 +28,42 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.CompradorLbl = new System.Windows.Forms.Label();
+            this.ListaProductosLbl = new System.Windows.Forms.Label();
+            this.Comprador1TxtBox = new System.Windows.Forms.TextBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
-            this.label3 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
+            this.TotalLbl = new System.Windows.Forms.Label();
+            this.EurosLbl = new System.Windows.Forms.Label();
+            this.listBox1 = new System.Windows.Forms.ListBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
-            // label1
+            // CompradorLbl
             // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(468, 49);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(83, 20);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "comprador";
+            this.CompradorLbl.AutoSize = true;
+            this.CompradorLbl.Location = new System.Drawing.Point(468, 49);
+            this.CompradorLbl.Name = "CompradorLbl";
+            this.CompradorLbl.Size = new System.Drawing.Size(83, 20);
+            this.CompradorLbl.TabIndex = 0;
+            this.CompradorLbl.Text = "comprador";
             // 
-            // label2
+            // ListaProductosLbl
             // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(468, 90);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(151, 20);
-            this.label2.TabIndex = 1;
-            this.label2.Text = "lista de los productos";
+            this.ListaProductosLbl.AutoSize = true;
+            this.ListaProductosLbl.Location = new System.Drawing.Point(468, 90);
+            this.ListaProductosLbl.Name = "ListaProductosLbl";
+            this.ListaProductosLbl.Size = new System.Drawing.Size(151, 20);
+            this.ListaProductosLbl.TabIndex = 1;
+            this.ListaProductosLbl.Text = "lista de los productos";
             // 
-            // comboBox1
+            // Comprador1TxtBox
             // 
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(625, 87);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(151, 28);
-            this.comboBox1.TabIndex = 2;
-            // 
-            // textBox1
-            // 
-            this.textBox1.Location = new System.Drawing.Point(625, 42);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(151, 27);
-            this.textBox1.TabIndex = 3;
+            this.Comprador1TxtBox.Location = new System.Drawing.Point(625, 42);
+            this.Comprador1TxtBox.Name = "Comprador1TxtBox";
+            this.Comprador1TxtBox.Size = new System.Drawing.Size(151, 27);
+            this.Comprador1TxtBox.TabIndex = 3;
             // 
             // pictureBox1
             // 
@@ -101,38 +93,47 @@
             this.button2.Text = "Añadir a la lista de la compra";
             this.button2.UseVisualStyleBackColor = true;
             // 
-            // label3
+            // TotalLbl
             // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(384, 263);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(50, 20);
-            this.label3.TabIndex = 7;
-            this.label3.Text = "TOTAL";
+            this.TotalLbl.AutoSize = true;
+            this.TotalLbl.Location = new System.Drawing.Point(384, 263);
+            this.TotalLbl.Name = "TotalLbl";
+            this.TotalLbl.Size = new System.Drawing.Size(50, 20);
+            this.TotalLbl.TabIndex = 7;
+            this.TotalLbl.Text = "TOTAL";
             // 
-            // label4
+            // EurosLbl
             // 
-            this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(561, 263);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(25, 20);
-            this.label4.TabIndex = 8;
-            this.label4.Text = "0€";
+            this.EurosLbl.AutoSize = true;
+            this.EurosLbl.Location = new System.Drawing.Point(561, 263);
+            this.EurosLbl.Name = "EurosLbl";
+            this.EurosLbl.Size = new System.Drawing.Size(25, 20);
+            this.EurosLbl.TabIndex = 8;
+            this.EurosLbl.Text = "0€";
+            // 
+            // listBox1
+            // 
+            this.listBox1.FormattingEnabled = true;
+            this.listBox1.ItemHeight = 20;
+            this.listBox1.Location = new System.Drawing.Point(625, 90);
+            this.listBox1.Name = "listBox1";
+            this.listBox1.Size = new System.Drawing.Size(150, 104);
+            this.listBox1.TabIndex = 9;
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.label4);
-            this.Controls.Add(this.label3);
+            this.Controls.Add(this.listBox1);
+            this.Controls.Add(this.EurosLbl);
+            this.Controls.Add(this.TotalLbl);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.pictureBox1);
-            this.Controls.Add(this.textBox1);
-            this.Controls.Add(this.comboBox1);
-            this.Controls.Add(this.label2);
-            this.Controls.Add(this.label1);
+            this.Controls.Add(this.Comprador1TxtBox);
+            this.Controls.Add(this.ListaProductosLbl);
+            this.Controls.Add(this.CompradorLbl);
             this.Name = "Form1";
             this.Text = "Hola soy el TPV rey";
             this.Load += new System.EventHandler(this.Form1_Load);
@@ -144,14 +145,14 @@
 
         #endregion
 
-        private Label label1;
-        private Label label2;
-        private ComboBox comboBox1;
-        private TextBox textBox1;
+        private Label CompradorLbl;
+        private Label ListaProductosLbl;
+        private TextBox Comprador1TxtBox;
         private PictureBox pictureBox1;
         private Button button1;
         private Button button2;
-        private Label label3;
-        private Label label4;
+        private Label TotalLbl;
+        private Label EurosLbl;
+        private ListBox listBox1;
     }
 }
